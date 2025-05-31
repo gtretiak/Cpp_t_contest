@@ -1,5 +1,5 @@
 # Cpp_t_contest
-This repository contains C++ programs solving various real-world problems 👇
+This repository contains C++ programs solving various real-world problems.
 ## Used Techniques
 
     Binary search (polygonal_pie.cpp)
@@ -15,10 +15,9 @@ How to compile and run the programs:
    c++ secret_santa.cpp
    ./secret_santa
    ```
-Below is a detailed breakdown of each program.
+Below is a detailed breakdown of each program 👇
 ## 1. mobile.cpp
 Calculates final cost based on base price, actual (or average) usage and price usage exceeds included limit.
-Details:
 
     Simple conditional arithmetic
     Practical Use:
@@ -28,7 +27,6 @@ Details:
     
 ## 2. pie.cpp
 Calculates how many times a number can be halved before every parting reached 1.
-Details:
 
     Simple iterative algorithm with integer division
     Logarithmic reduction
@@ -39,7 +37,6 @@ Details:
     
 ## 3. ladder.cpp
 Optimizes elevator movement in a multistory building to the minimal travel time for picking up/dropping off passengers at different floors.
-Details:
 
     Compares multiple route options
     Considers time constraints
@@ -50,7 +47,6 @@ Details:
     
 ## 4. maximizeSum.cpp
 Calculates maximum possible sum gain by replacing digits (up to allowed moves).
-Details:
 
     Digit decomposition and greedy selection
     Prioritizes most significant digit changes
@@ -61,7 +57,6 @@ Details:
     
 ## 5. beautiful_digits.cpp
 Counts numbers with all identical digits between given bounds.
-Details:
 
     Generates numbers mathematically rather than checking each
     Handles large ranges efficiently
@@ -72,7 +67,6 @@ Details:
 
 ## 6. odd_and_even_in_sequence.cpp
 Finds mismatched odd/even positions in a sequence and identifies if the sequence can be fixed by swapping two elements just once.
-Details:
 
     Checks element parity against index parity
     Finds at most two mismatched positions
@@ -83,7 +77,6 @@ Details:
     
 ## 7. secret_santa.cpp
 Validates and corrects Secret Santa gift assignments to ensure a single cycle where everyone gives/receives exactly one gift. Corrects invalid assignments by reassigning gifts when possible.
-Details:
 
     Uses graph cycle detection to validate assignments
     Implements reassignment logic when someone gets two gifts or no gift
@@ -94,7 +87,6 @@ Details:
 
 ## 8. conference_room.cpp
 Performs geometric transformations to align virtual space coordinates with physical room dimensions.
-Details:
 
     Uses trigonometric transformations
     Handles scaling and rotation
@@ -105,7 +97,6 @@ Details:
     
 ## 9. free_lunch.cpp
 Uses dynamic programming to find optimal coupon usage sequence for minimal spending over multiple days.
-Details:
 
     2D DP table tracking cost and coupons
     Backtracks to find coupon usage days
@@ -116,7 +107,6 @@ Details:
     
 ## 10. polygonal_pie.cpp
 Calculates a vertical line position that splits a polygon into two regions of equal area using binary search and shoelace formula.
-Details:
 
     Implements Gauss's shoelace formula for area calculation
     Uses binary search to find the optimal dividing line
