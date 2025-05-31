@@ -1,6 +1,5 @@
 # Cpp_t_contest
-This repository contains 10 C++ programs solving various algorithmic problems. 
-These algorithms have real-world applications. Take a look below 👇
+This repository contains C++ programs solving various real-world problems 👇
 ## Used Techniques
 
     Binary search (polygonal_pie.cpp)
@@ -9,12 +8,13 @@ These algorithms have real-world applications. Take a look below 👇
     Geometric algorithms (conference_room.cpp)
     Greedy approaches (maximizeSum.cpp)
     
-## Compilation and Execution
-All programs are standard C++ and can be compiled with c++
-#### Compilation and Run (example)
-c++ secret_santa.cpp
-./secret_santa
-
+How to compile and run the programs:
+   ```
+   # All programs are standard C++ and can be compiled with c++
+   # Example
+   c++ secret_santa.cpp
+   ./secret_santa
+   ```
 Below is a detailed breakdown of each program.
 ## 1. mobile.cpp
 Calculates final cost based on base price, actual (or average) usage and price usage exceeds included limit.
