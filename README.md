@@ -1,6 +1,5 @@
 # Cpp_t_contest
 This repository contains 10 C++ programs solving various algorithmic problems. 
-
 These algorithms have real-world applications. Take a look below 👇
 ## Used Techniques
 
@@ -12,7 +11,7 @@ These algorithms have real-world applications. Take a look below 👇
     
 ## Compilation and Execution
 All programs are standard C++ and can be compiled with c++
-# Compilation and Run (example)
+#### Compilation and Run (example)
 c++ secret_santa.cpp
 ./secret_santa
 
