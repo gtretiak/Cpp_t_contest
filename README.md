@@ -1,6 +1,7 @@
 # Cpp_t_contest
 This repository contains 10 C++ programs solving various algorithmic problems. 
-These algorithms have real-world applications in logistics, finance, computer graphics, and operations research.
+
+These algorithms have real-world applications. Take a look below 👇
 ## Used Techniques
 
     Binary search (polygonal_pie.cpp)
