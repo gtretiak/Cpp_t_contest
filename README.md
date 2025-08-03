@@ -4,9 +4,12 @@ This repository contains C++ programs solving various real-world problems.
 
     Binary search (polygonal_pie.cpp)
     Graph theory (secret_santa.cpp)
-    Dynamic programming (free_lunch.cpp)
+    Dynamic programming (free_lunch.cpp, memory.cpp)
     Geometric algorithms (conference_room.cpp)
-    Greedy approaches (maximizeSum.cpp)
+    Greedy approaches (maximizeSum.cpp, array_sum.cpp)
+    String manipulation (trio.cpp)
+    Mathematical computation (fractions.cpp, trueEven.cpp, meteo.cpp)
+    Sequence construction (sequence.cpp)
     
 How to compile and run the programs:
    ```
@@ -114,4 +117,66 @@ Calculates a vertical line position that splits a polygon into two regions of eq
     1. Agricultural land fair division for inheritance or partnership dissolution
     2. Urban planning when splitting park areas or zoning districts
     3. CAD software for designing balanced mechanical parts
-    
+
+## 11. trueEven.cpp
+Checks if all digits in a number are even digits (0, 2, 4, 6, 8).
+
+    Digit extraction and modular arithmetic
+    Practical Use:
+    1. Data validation systems checking format compliance
+    2. Financial systems validating account numbers with specific digit patterns
+    3. Quality control systems verifying product codes meet criteria
+
+## 12. trio.cpp
+Counts occurrences of consecutive "abc" substring in a given string.
+
+    String traversal and pattern matching
+    Practical Use:
+    1. DNA sequence analysis finding specific gene patterns
+    2. Log file analysis detecting error patterns or event sequences
+    3. Text processing systems identifying repeated phrases or codes
+
+## 13. sequence.cpp
+Constructs a sequence by inserting numbers left or right based on direction string.
+
+    Dynamic array manipulation and insertion algorithms
+    Practical Use:
+    1. Undo/redo systems in text editors maintaining operation history
+    2. Task scheduling systems organizing priorities based on dependencies
+    3. GUI layout managers positioning elements based on user interactions
+
+## 14. meteo.cpp
+Calculates what day a missed diary entry should have been made based on current day and last entry.
+
+    Date arithmetic and calendar calculations
+    Practical Use:
+    1. Scheduling systems calculating missed appointments or deadlines
+    2. Payroll systems determining pay periods and missed timesheet dates
+    3. Maintenance tracking systems identifying overdue service intervals
+
+## 15. memory.cpp
+Finds maximum mood sum on a staircase with ability to skip negative mood steps.
+
+    Dynamic programming with skip optimization
+    Practical Use:
+    1. Investment portfolio optimization with limited loss-cutting opportunities
+    2. Game path optimization with limited power-ups or skips available
+    3. Resource allocation systems maximizing benefit while minimizing negative impacts
+
+## 16. fractions.cpp
+Adds two fractions and reduces the result to its simplest form.
+
+    Greatest common divisor (GCD) and fraction arithmetic
+    Practical Use:
+    1. Financial calculators combining fractional percentages or rates
+    2. Recipe scaling systems adding ingredient proportions
+    3. Engineering calculations combining measurements in fractional units
+
+## 17. array_sum.cpp
+Determines if array sum can be calculated using minimum number of range clues with known values.
+
+    Greedy interval covering algorithm
+    Practical Use:
+    1. Network monitoring systems determining minimum sensors needed for full coverage
+    2. Security systems optimizing camera placement for complete area surveillance
+    3. Quality assurance systems minimizing test cases while ensuring full code coverage
